@@ -1,19 +1,24 @@
 {
   "name": "rampage",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/TheronS/doomrampage.org.git"
+  "dependencies": {
+    "react": "^18",
+    "react-dom": "^18",
+    "next": "14.1.0"
   },
-  "author": "rosk1ng",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/TheronS/doomrampage.org/issues"
-  },
-  "homepage": "https://github.com/TheronS/doomrampage.org#readme"
+  "devDependencies": {
+    "typescript": "^5",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.0"
+  }
 }
